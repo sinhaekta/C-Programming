@@ -51,7 +51,7 @@ int main() {
         y = ci2/n;
     if (x==y && (x-1)!=0)
     printf("%s, ",str[x-1]);
-    else
+    if (x==y && (x-1)==0)
     printf("%s ",str[0]);
     n=n*2;
     }
